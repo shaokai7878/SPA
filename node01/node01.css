@@ -1,0 +1,15 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+#btn{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+input{
+    margin-top: 10px;
+}
+span{
+    color:red;
+}
