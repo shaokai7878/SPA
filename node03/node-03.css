@@ -1,0 +1,20 @@
+#div1{
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+
+    width: 500px;
+    height: 200px;
+}
+#range{
+    width: 400px;
+    float: left;
+}
+p{
+    font-size: 50px;
+    float: left;
+}
+span{
+    color:orangered;
+}
