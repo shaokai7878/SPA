@@ -1,7 +1,7 @@
 window.onload=function(){
     var btn = document.getElementById('btn');
     btn.onclick=function(){
-        alert('你点击了按钮');
+        alert('2s后恢复');
         App();
     }
     function App(){
