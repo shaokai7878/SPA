@@ -1,0 +1,37 @@
+ *{
+   margin: 0 auto;
+}
+body{
+    line-height: 2em;
+}
+details summary{
+    background-color:#c5c5c5;
+    width: 500px;
+}
+details form{
+    background-color: #efefef;
+    width: 500px;
+    
+}
+details input[type="submit"] {
+    margin-left: 124px;
+    width: 60px;
+    height: 30px;
+    font-size: 1em;
+}
+form div {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: flex-start;
+  }
+  details input[type="text"], textarea {
+    width: 200px;
+  }
+  details input, label, textarea {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  
