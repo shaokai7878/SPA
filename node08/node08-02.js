@@ -1,17 +1,27 @@
 var lookPswd = function(config){
     var container = config.container;
-
-    var $label = $('#label');
-    var $pswd = $("#pswd");
+    var $label = $('<label for=name>密码：</label>');
+    var $pswd = $("<input type='password'class='pswd' autofocus>");
+    var $pswdText = $("<input type='text'class='text'>");
     var $br = $('<br>');
-    var $img = $("#img1");
-    $(container).append($label,$pswd,$img,$br);
+	var $img = $("<div class='eye'>");
+    
+
+    $(container).append($label,$pswd,$br,$img);
+    
+    $pswd.on('input',function(){
+        $pswd.val($pswdText.val());
+    })
+
     $img.mouseover(function(){
-        $img.attr('src','browse 1.jpg');
         $pswd.attr('type','text');
     });
+
     $img.mouseout(function(){
-        $img.attr('src','browse.jpg');
         $pswd.attr('type','password');
     });
+
+    this.get=function(){
+        return $pswdText.val();
+    }
 }
